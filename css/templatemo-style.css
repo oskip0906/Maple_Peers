@@ -232,7 +232,7 @@ button:focus { outline: none;}
 .form-control::-moz-placeholder { color: #000000; } /* Firefox 19+ */
 .form-control:-ms-input-placeholder { color: #000000; }
 
-.form-group { margin-bottom: 1.5rem; }
+.form-group { margin-bottom: 1rem; }
 
 .submit-form {
 	background-color: #889aad;
@@ -249,7 +249,7 @@ button:focus { outline: none;}
 	background-color: #0066CC;
 }
 
-textarea { height: 168px; }
+textarea { height: 150px; }
 
 /* Slider */
 
@@ -668,7 +668,7 @@ figure.effect-ruby:hover img {
 	.cd-slider-nav { top: 30px; }	
 	.cd-slider-nav nav { padding: 0 30px; }	
 	.tm-brand-icon { margin-right: 15px; }
-	.tm-Registration-page { padding: 20px; }
+	.tm-Registration-page { padding-top: 20px; }
 	.cd-full-width .container-fluid {
 		padding-left: 20px;
 		padding-right: 20px;
