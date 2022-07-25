@@ -2,7 +2,7 @@
   display: flex; 
   align-items: center; 
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 #cal button {
@@ -15,9 +15,9 @@
   }
   
   #header {
-    padding: 5px;
+    padding: 2%;
     color: #9b1616;
-    font-size: 20px;
+    font-size: 25px;
     font-family: sans-serif;
     display: flex;
     justify-content: space-evenly;
@@ -28,11 +28,13 @@
   #container {
     width: 800px;
     background-color: #c0d1be;
-    padding: 0.5%;
+    padding-left: 30px;
+    padding-right: 2px;
+    padding-bottom: 15px;
     border: 5px solid rgb(212, 212, 30, 0.5);
   }
   #weekdays {
-    width: 95%;
+    width: 96%;
     display: flex;
     color: #c4d9e2;
     background-color: #247BA0;
@@ -78,14 +80,14 @@
   #newEventModal, #deleteEventModal {
     display: none;
     z-index: 20;
-    padding: 25px;
+    padding: 20px;
     border-radius: 5px;
     width: 350px;
     top: 100px;
     left: 40%;
     top: 20%;
     position: absolute;
-    font-family: sans-serif;
+    background-color: #84bfd8;
   }
   #eventTitleInput {
     padding: 10px;
@@ -106,7 +108,7 @@
     background-color: #92a1d1;
   }
   #eventText {
-    font-size: 14px;
+    font-size: 12px;
   }
   #modalBackDrop {
     display: none;
