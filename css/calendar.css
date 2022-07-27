@@ -1,8 +1,6 @@
 #cal {
-  display: flex; 
-  align-items: center; 
-  justify-content: center;
-  padding-top: 100px;
+  padding-top: 3%;
+  padding-left: 27%;
 }
 
 #cal button {
@@ -26,7 +24,7 @@
     background-color:#92a1d1;
   }
   #container {
-    width: 800px;
+    width: 800px; 
     background-color: #c0d1be;
     padding-left: 30px;
     padding-right: 2px;
