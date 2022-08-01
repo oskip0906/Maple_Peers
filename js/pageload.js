@@ -21,9 +21,7 @@ function adjustHeightOfPage(pageNo) {
 
 $( window ).resize(function() {
     var currentPageNo = $(".cd-hero-slider li.selected .js-tm-page-content").data("page-no");
-    setTimeout(function() {
-        adjustHeightOfPage( currentPageNo );
-    }, 100); 
+    adjustHeightOfPage( currentPageNo );
 })
 
 $(window).load(function(){

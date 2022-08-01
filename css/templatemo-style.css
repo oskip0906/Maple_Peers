@@ -450,7 +450,7 @@ iframe {
 }
 
 #cal {
-	padding-top:50px;
+	padding-top: 50px;
 	display: flex;
 	justify-content: center;
 }
@@ -729,13 +729,13 @@ iframe {
 @media only screen and (max-width: 430px) {
 	iframe {
 		width: 320px;
-		height: 600px;
+		height: 500px;
 	}
 }
 
 @media only screen and (max-width: 330px) {
 	iframe {
 		width: 260px;
-		height: 600px;
+		height: 400px;
 	}
 }
