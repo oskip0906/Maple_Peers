@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">                
     <link rel="stylesheet" href="css/bootstrap.min.css">                                      
     <link rel="stylesheet" href="css/hero-slider-style.css">                                                          
-    <link rel="stylesheet" href="css/templatemo-style.css">                        
-    <link rel="stylesheet" href="css/calendar.css">                     
+    <link rel="stylesheet" href="css/templatemo-style.css">                                        
 
 </head>
 
@@ -129,51 +128,12 @@
                     <div class="cd-full-width">     
                         <div class="container-fluid js-tm-page-content tm-page-pad" data-page-no="3" id="cal">    
                             <div class="row">
-                                <div id="container">
-                                    <div id="header">
-                                        <div id="monthDisplay"></div>
-                                        <div>
-                                            <button id="backButton">Back</button>
-                                            <button id="nextButton">Next</button>
-                                        </div>
+                                <div class="col-xs-12">
+                                    <div class="tm-flex">
+                                        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23E4C441&ctz=America%2FToronto&showCalendars=0&showTabs=0&showPrint=0&showTitle=0&showNav=1&showTz=1&src=bWFwbGVwZWVyc0BnbWFpbC5jb20&src=ZW4tZ2IuY2FuYWRpYW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23B39DDB&color=%230B8043" frameborder="0" scrolling="no"></iframe>
                                     </div>
-                                    
-                                    <div id="weekdays">
-                                        <div>Sun</div>
-                                        <div>Mon</div>
-                                        <div>Tue</div>
-                                        <div>Wed</div>
-                                        <div>Thu</div>
-                                        <div>Fri</div>
-                                        <div>Sat</div>
-                                    </div>
-                                
-                                    <div id="calendar"></div>
-
                                 </div>
-
                             </div>
-
-                            <div id="newEventModal">
-                                <h2>Add Event</h2>
-                                    
-                                <input id="eventTitleInput" placeholder="Event Description" />
-                                
-                                <button id="saveButton">Save</button>
-                                <button id="cancelButton">Cancel</button>
-                            </div>
-                            
-                            <div id="deleteEventModal">
-                                <h2>Event</h2>
-                            
-                                <p id="eventText"></p>
-                            
-                                <button id="deleteButton">Delete</button>
-                                <button id="closeButton">Close</button>
-                            </div>
-                            
-                            <div id="modalBackDrop"></div>
-
                         </div>      
                     </div>                    
                 </li>
@@ -267,7 +227,6 @@
         <script src="js/bootstrap.min.js"></script>           
         <script src="js/hero-slider-main.js"></script>       
         <script src="js/pageload.js"></script>
-        <script src="js/calendar.js"></script>
 
 </body>
 </html>
