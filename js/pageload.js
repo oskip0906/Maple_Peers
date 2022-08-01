@@ -2,15 +2,8 @@ function adjustHeightOfPage(pageNo) {
 
     var offset = 80;
     var pageContentHeight = 0;
-
-    var pageType = $('div[data-page-no="' + pageNo + '"]').data("page-type");
-
-    if( pageType != undefined && pageType == "gallery") {
-        pageContentHeight = $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .tm-img-gallery-container").height();
-    }
-    else {
-        pageContentHeight = $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .js-tm-page-content").height();
-    }
+    
+    pageContentHeight = $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .js-tm-page-content").height();
 
     var totalPageHeight = 15 + $('.cd-slider-nav').height() + pageContentHeight + offset;
 

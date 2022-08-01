@@ -442,7 +442,6 @@ figure.effect-ruby:hover img {
 
 /* Calendar */
 iframe {
-	padding-top: 100px;
 	width: 1000px;
 	height: 600px;
 	border: 5px solid rgb(196, 175, 175);
@@ -451,10 +450,31 @@ iframe {
 }
 
 #cal {
+	padding-top:50px;
 	display: flex;
 	justify-content: center;
 }
 
+
+/* Education */
+#education h2 a {
+	filter: opacity(90%);
+  	transition: 0.1s ease-in-out;
+}
+
+#education a {
+	filter: opacity(80%);
+  	transition: 0.1s ease-in-out;
+}
+
+#education a img{
+	border-radius: 2.5%;
+}
+
+#education a:hover {
+	filter: opacity(100%);
+  	transition: 0.1s ease-in-out;
+}
 
 /* Media Queries */
 
@@ -708,7 +728,7 @@ iframe {
 
 @media only screen and (max-width: 430px) {
 	iframe {
-		width: 310px;
+		width: 320px;
 		height: 600px;
 	}
 }
