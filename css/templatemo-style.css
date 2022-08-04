@@ -4,6 +4,7 @@ body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 17px;
 	font-weight: 300;
+	overflow: auto;
 }
 
 ul { padding: 0; margin: 0; }
@@ -152,8 +153,6 @@ button:focus { outline: none;}
 	margin-right: auto;
 	width: 100%;
 }
-
-.tm-3-col-container { overflow: auto; }
 
 .cd-hero-slider h2.tm-text-title {
 	color: #000002;
@@ -358,7 +357,6 @@ textarea { height: 150px; }
 
 .grid-item figure {
     position: relative;
-    overflow: hidden;
     text-align: center;
 }
 
@@ -439,7 +437,7 @@ figure.effect-ruby:hover img {
     opacity: 0;
 }
 
-.-box-margin-b { margin-bottom: 30px; }
+.-box-margin-b { margin-bottom: 20px; }
 
 
 /* Calendar */
