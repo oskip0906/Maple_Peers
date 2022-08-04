@@ -765,3 +765,13 @@ figure.effect-ruby:hover img {
 		padding-top: 12%;
 	}
 }
+
+
+/* new */
+#mentors a {
+	filter: opacity(0.8);
+}
+
+#mentors a:hover {
+	filter: opacity(1);
+}
