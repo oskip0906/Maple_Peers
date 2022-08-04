@@ -1,6 +1,6 @@
 function adjustHeightOfPage(pageNo) {
 
-    var offset = 80;
+    var offset = 100;
     var pageContentHeight = 0;
     
     pageContentHeight = $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .js-tm-page-content").height();

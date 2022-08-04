@@ -1,11 +1,4 @@
-/* -------------------------------- 
-Primary style
--------------------------------- */
-*, *::after, *::before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+/* Components */
 
 html { font-size: 62.5%; }
 
@@ -23,9 +16,6 @@ a {
 
 img { max-width: 100%; }
 
-/* -------------------------------- 
-Main Components 
--------------------------------- */
 .cd-header {
   position: absolute;
   z-index: 2;
@@ -130,9 +120,7 @@ Main Components
   }
 }
 
-/* -------------------------------- 
-Slider
--------------------------------- */
+/* Slider */
 .cd-hero {
   position: relative;
   -webkit-font-smoothing: antialiased;
@@ -167,7 +155,6 @@ Slider
   transform: translateX(0);
 }
 .cd-hero-slider li.move-left {
-  /* slide hidden on the left */
   -webkit-transform: translateX(-100%);
   -moz-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
@@ -192,9 +179,9 @@ Slider
   }
 }
 
-/* -------------------------------- 
-Single slide style
--------------------------------- */
+
+/* Single slide style */
+
 .cd-hero-slider li {
   background-position: center center;
   background-size: cover;
@@ -323,9 +310,9 @@ Single slide style
   }
 }
 
-/* -------------------------------- 
-Slider navigation
--------------------------------- */
+
+/* Slider navigation */
+
 .cd-slider-nav {
   position: absolute;
   width: 100%;
@@ -418,9 +405,7 @@ Slider navigation
   }
 }
 
-/* -------------------------------- 
-Main content
--------------------------------- */
+/* Main content */
 .cd-main-content {
   width: 90%;
   max-width: 768px;
