@@ -129,10 +129,10 @@ button:focus { outline: none;}
 	list-style: none; 
 }
 
-.cd-hero-slider li:nth-of-type(1) { background-image: url(../img/ontario1.jpg); }
-.cd-hero-slider li:nth-of-type(2) { background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url(../img/ontario2.jpg);}
-.cd-hero-slider li:nth-of-type(3) { background-image: url(../img/ontario3.jpg); }
-.cd-hero-slider li:nth-of-type(4) { background-image: url(../img/ontario4.jpg); }
+.cd-hero-slider li:nth-of-type(1) { background-image: url(https://bestanimations.com/media/canada/919553582canadian-flag-animated-gif-81-l.gif#.Yu87Cs4p0Dc.link); }
+.cd-hero-slider li:nth-of-type(2) { background-image: url(https://i.gifer.com/CUD.gif);}
+.cd-hero-slider li:nth-of-type(3) { background-image: url(https://i.gifer.com/7S46.gif); }
+.cd-hero-slider li:nth-of-type(4) { background-image: url(https://i.gifer.com/X9pk.gif); }
 
 .lightgrey { background-color: rgba(224, 224, 224, 0.95); }
 .lightgrey p { color: black; }
