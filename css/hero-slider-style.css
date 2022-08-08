@@ -34,19 +34,6 @@ img { max-width: 100%; }
   }
 }
 
-#cd-logo {
-  float: left;
-  margin: 13px 0 0 5%;
-}
-#cd-logo img {
-  display: block;
-}
-@media only screen and (min-width: 768px) {
-  #cd-logo {
-    margin: 23px 0 0 5%;
-  }
-}
-
 .cd-primary-nav {
   float: right;
   margin-right: 5%;
