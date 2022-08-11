@@ -134,8 +134,7 @@ button:focus { outline: none;}
 	list-style: none; 
 }
 
-.cd-hero-slider li:nth-of-type(1), .cd-hero-slider li:nth-of-type(2),
-.cd-hero-slider li:nth-of-type(3), .cd-hero-slider li:nth-of-type(4)
+.cd-hero-slider li:nth-of-type(1), .cd-hero-slider li:nth-of-type(2),.cd-hero-slider li:nth-of-type(3), .cd-hero-slider li:nth-of-type(4), .cd-hero-slider li:nth-of-type(5)
 { background-image: url(../img/background.gif); }
 
 .lightgrey { background-color: rgba(224, 224, 224, 0.95); }
