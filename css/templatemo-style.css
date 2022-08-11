@@ -11,6 +11,19 @@ body {
 	width: 0px;
 }
 
+.tm-textbox-padding { 
+	padding: 35px 30px; 
+	border: 2.5px solid rgb(119, 139, 161);
+	border-radius: 5px;
+	box-shadow: 0 0 4px 2px rgb(170, 172, 147);
+}
+
+.white-bar {
+	border: 2.5px solid rgb(121, 172, 156);
+	border-radius: 5px;
+	box-shadow: 0 0 4px 2px rgb(170, 172, 147);
+}
+
 ul { padding: 0; margin: 0; }
 figure { margin: 0; }
 p:last-child { margin-bottom: 0; }
@@ -20,14 +33,6 @@ a:hover,
 a:focus {
 	text-decoration: none;
 	outline: none;
-}
-
-.tm-brand-icon { 
-	padding: 10px;
-    background: none;
-    color: black;
-    font-size: 4rem;
-    margin-right: 15px;
 }
 
 .container-fluid { width: 100%; }
@@ -308,8 +313,6 @@ textarea { height: 150px; }
 .gallery-three .tm-img {
 	max-width: none;
 }
-
-.tm-textbox-padding { padding: 35px 30px; }
 
 .cd-hero-slider h2.tm-Registration-info {
 	color: black;
