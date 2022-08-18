@@ -685,7 +685,6 @@ figure.effect-ruby:hover img {
 
 @media only screen and (min-width: 1170px) {	
 	.cd-hero-slider h2, .cd-hero-slider p { margin-bottom: 5%; }
-	.cd-hero-slider h2.tm-gallery-title { margin-bottom: 25px; }
 	.cd-hero-slider p:last-child { margin-bottom: 0; }
 	.cd-hero-slider .cd-full-width { padding-top: 0; }
 	.cd-hero-slider .tm-text { font-size: 1em; }
