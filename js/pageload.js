@@ -30,7 +30,6 @@ $(window).load(function(){
     
     $('#tmNavbar a').click(function(){
         $('#tmNavbar').collapse('hide');
-
         adjustHeightOfPage($(this).data("no"));     
     });
                
