@@ -270,7 +270,7 @@ textarea { height: 150px; }
 }
 
 
-/* Gallery */
+/* Grid */
 
 .grid-item {
 	margin-bottom: 20px;
@@ -282,35 +282,12 @@ textarea { height: 150px; }
 
 .grid-item:last-child { margin-bottom: 0; }
 
-.tm-img-gallery-container {
-	max-width: 320px;
-    margin: 0 auto;
-}
-
-.tm-img-gallery-container-3 { max-width: none; }
-
-.tm-img-gallery {
-	margin: 0 auto 10px;
-	display: inline-block;
-}
-
-.tm-img-gallery-info-container {
-	display: block;
-	margin: 0 auto;
-	padding: 30px 1px;	
-}
-
 .tm-img {
 	max-width: 320px;
   	width: 100%;
   	height: auto;
   	border: none;
   	margin: 0 auto;
-}
-
-.gallery-two .tm-img,
-.gallery-three .tm-img {
-	max-width: none;
 }
 
 .cd-hero-slider h2.tm-Registration-info {
@@ -508,40 +485,8 @@ figure.effect-ruby:hover img {
 	.cd-hero-slider h2.tm-text-title { font-size: 1.8em; }
 	.tm-textbox-padding { padding: 30px 40px; }
 	.tm-textbox-padding-Registration { padding: 30px; }
-	.tm-img-gallery-container { 
-		margin: 40px auto 20px;
-		max-width: 680px; 
-	}
-
-	.tm-img-gallery-container-2 { max-width: 453px; }
-	
-	.grid-item {
-		padding-left: 10px;
-		padding-right: 10px;
-		width: 50%;
-	}
-
-	.gallery-two .grid-item,
-	.gallery-three .grid-item {
-		width: 100%;
-	}
-
-	.tm-img-gallery-info-container {
-		padding: 0 11px 30px;
-		max-width: 700px;
-		margin: 0 auto 0 0;
-	}
 
 	.grid-item figure figcaption { padding: 1em; }
-	.cd-hero-slider .selected .cd-full-width .gallery-one figure.effect-ruby h2.tm-figure-title,
-	.cd-hero-slider .selected .cd-full-width .gallery-two figure.effect-ruby h2.tm-figure-title {
-		font-size: 1.5em;
-	}
-}
-
-@media only screen and (min-width: 652px) {
-	.gallery-two .grid-item { width: 50%; }
-	.tm-img-gallery-container-2 { max-width: 906px; }
 }
 
 @media only screen and (min-width: 768px) {
@@ -633,18 +578,8 @@ figure.effect-ruby:hover img {
 		margin-bottom: 0;
 	}
 
-	.tm-img-gallery-container,
-	.tm-img-gallery-container-2,
-	.tm-img-gallery-container-3 { max-width: 1360px; }
-
 	.grid-item { width: 25%; }
-	.gallery-two .grid-item { width: 33.3333%; }
-	.gallery-three .grid-item { width: 50%; }
 	.grid-item figure figcaption { padding: 1em; }
-	.cd-hero-slider .selected .cd-full-width .gallery-one figure.effect-ruby h2.tm-figure-title,
-	.cd-hero-slider .selected .cd-full-width .gallery-two figure.effect-ruby h2.tm-figure-title {
-		font-size: 1.5em;
-	}
 }
 
 @media only screen and (min-width: 1063px) {
