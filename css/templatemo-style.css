@@ -417,6 +417,25 @@ figure.effect-ruby:hover img {
 .-box-margin-b { margin-bottom: 20px; }
 
 
+/* Mentors */
+#mentors a {
+	filter: opacity(0.8);
+}
+
+#mentors a:hover {
+	filter: opacity(1);
+}
+
+#mentors img {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 200px; 
+	border-radius: 50%; 
+	filter: drop-shadow(0 -1px 1px rgb(213, 216, 16));
+}
+
+
 /* Calendar */
 
 #cal iframe {
@@ -699,13 +718,4 @@ figure.effect-ruby:hover img {
 	#cal {
 		padding-top: 12%;
 	}
-}
-
-/* new */
-#mentors a {
-	filter: opacity(0.8);
-}
-
-#mentors a:hover {
-	filter: opacity(1);
 }
