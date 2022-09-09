@@ -416,6 +416,11 @@ figure.effect-ruby:hover img {
 
 .-box-margin-b { margin-bottom: 20px; }
 
+/* About */
+#information .tm-flex{
+	margin-left: 12.5%; 
+	margin-right: 12.5%; 
+}
 
 /* Mentors */
 #mentors a {
