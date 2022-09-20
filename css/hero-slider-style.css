@@ -3,9 +3,7 @@
 html { font-size: 62.5%; }
 
 body {
-  font-size: 1.6rem;
-  font-family: sans-serif;
-  color: #2c343b;
+  font-size: 1.5rem;
   background-color: #f2f2f2;
 }
 
@@ -181,13 +179,7 @@ img { max-width: 100%; }
   left: 0;
   top: 0;
   padding-top: 100px;
-  text-align: center;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -o-transform: translateZ(0);
   transform: translateZ(0);
 }
 .cd-hero-slider .cd-img-container {
@@ -205,6 +197,7 @@ img { max-width: 100%; }
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
+
 .cd-hero-slider h2, .cd-hero-slider p {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   line-height: 1.2;
@@ -213,13 +206,12 @@ img { max-width: 100%; }
   width: 90%;
   max-width: 400px;
 }
-.cd-hero-slider h2 {
-  font-size: 2.4rem;
-}
+
 .cd-hero-slider p {
   font-size: 1.4rem;
   line-height: 1.4;
 }
+
 .cd-hero-slider .cd-btn {
   display: inline-block;
   padding: 1.2em 1.4em;
@@ -279,6 +271,7 @@ img { max-width: 100%; }
     font-size: 1.4rem;
   }
 }
+
 @media only screen and (min-width: 1170px) {
   .cd-hero-slider .cd-full-width,
   .cd-hero-slider .cd-half-width {
@@ -402,6 +395,7 @@ img { max-width: 100%; }
   color: #999999;
   margin: 2em 0;
 }
+
 @media only screen and (min-width: 1170px) {
   .cd-main-content {
     padding: 3em 0;

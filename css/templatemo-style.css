@@ -7,10 +7,6 @@ body {
 	overflow: auto;
 }
 
-::-webkit-scrollbar {
-	width: 0px;
-}
-
 .tm-textbox-padding { 
 	padding: 35px 30px; 
 	border: 2.5px solid rgb(119, 139, 161);
@@ -130,7 +126,6 @@ button:focus { outline: none;}
 
 .cd-hero-slider { height: 100vh; }
 .cd-hero-slider li { 
-	background-color: #2c343b;
 	list-style: none; 
 }
 
@@ -141,7 +136,6 @@ button:focus { outline: none;}
 .lightgrey p { color: black; }
 .tm-textbox { 
 	display: inline-block; 
-	width: 100%;
 }
 
 .cd-hero-slider h2, .cd-hero-slider p {
@@ -245,7 +239,7 @@ textarea { height: 150px; }
 .tm-2-col-textbox-2 {
 	width: 100%;
 	padding: 25px;
-	margin-bottom: 30px; 
+	margin-bottom: 20px; 
 	flex: 0 1 auto; 
 }
 
@@ -559,7 +553,6 @@ figure.effect-ruby:hover img {
 	}
 	.cd-slider-nav .navbar-nav {
 		background: transparent;
-		display: -ms-flexbox;
 		display: flex;
 	}
 	.cd-slider-nav li {	
